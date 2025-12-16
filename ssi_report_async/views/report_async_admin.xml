@@ -7,6 +7,7 @@
         <field name="name">report.async.tree - Tree Admin</field>
         <field name="model">report.async</field>
         <field name="mode">extension</field>
+        <field name="priority">17</field>
         <field name="inherit_id" ref="report_async.view_report_async_tree" />
         <field name="groups_id" eval="[(4, ref('base.group_erp_manager'))]" />
         <field name="arch" type="xml">
@@ -23,6 +24,7 @@
         <field name="name">report.async.tree - Form Admin</field>
         <field name="model">report.async</field>
         <field name="mode">extension</field>
+        <field name="priority">17</field>
         <field name="inherit_id" ref="report_async.view_report_async_form" />
         <field name="groups_id" eval="[(4, ref('base.group_erp_manager'))]" />
         <field name="arch" type="xml">
